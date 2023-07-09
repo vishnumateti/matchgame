@@ -1,0 +1,22 @@
+.list-container {
+  list-style-type: none;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.thumbnail-image {
+  height: 60px;
+  width: 50px;
+  border-radius: 5px;
+}
+.thumbnail-button {
+  border: 0px none transparent;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .thumbnail-image {
+    height: 140px;
+    width: 80px;
+    border-radius: 5px;
+  }
+}
